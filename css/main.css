@@ -1,47 +1,52 @@
+@font-face {
+    font-family: arjunfonts;     
+    src: url(/fonts/alex.ttf);    
+}
 body{
     margin:0px ;
 }
+/* This is the header  */
 header{
     width: 100%;
     height: 200px ;
-    border:2px Dashed red;
+    border:2px Dashed red;    
 }
-    main{
-        width:100% ;
-        min-height:1200px ;
-        border:2px Dashed greenyellow ;
-    }
-    
-
-footer{
+/* This is the Main Section */
+main{
     width:100% ;
-    height:300px ;
-    border:2px Dashed blue;
-
+    min-height: 1200px ;
+    border:2px Dashed greenyellow ;
+    clear: both;
 }
-
-
-Aside.leftAside{
+.left-aside{
     width:25%;
     min-height:1200px ;
-    Border:1px Dashed green;
     Float:Left;
+    background-color: green;
 }
-Section{
+.mySection{
     width:50%;
     min-height:1200px ;
-    Border:1px Dashed red;
     Float:Left;
+    background-color: red;
 }
-Aside.RightAside{
-    width:24%;
+.right-aside{
+    width:25%;
     min-height:1200px ;
-    Border:1px Dashed red;
-    Float:Left;
+    Float:left;
+    background-color: blue;
+}
+/* this is the Footer Section */   
+footer{
+    width: 100% ;
+    height: 300px ;
+    border: 2px Dashed blue;
+    font-family: arjunfonts;
 }
 
 header>  nav>  ul>  li{
-    list-style: non;
-    float:left;
-    padding:20px ;
+    list-style: none;
+    float: left;
+    padding: 20px ;
 }
+
